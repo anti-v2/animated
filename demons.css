@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  perspective: 800px;
+  width: 100%;
+  color: white;
+  background-color: black;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #00ffbf;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 3, 179);
+}
+
+#nav {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30px;
+  gap: 50px;
+  position: absolute;
+  z-index: 99;
+}
+
+#main {
+  position: relative;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1
+}
+
+#villain {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+#villain #villain_info {
+  height: 400px;
+  width: 800px;
+}
+
+#villain_info h2 {
+  height: 200px;
+  width: 600px;
+  margin-top: 100px;
+  font-size: 60px;
+  margin-left: 200px;
+  text-shadow: 2px 7px 5px rgb(255, 0, 0),
+    0px -4px 10px rgb(255, 255, 255);
+  position: relative;
+  font-weight: 1000;
+
+}
+
+#villain #villain_info p {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.rotated-div {
+  transform: rotate(-35deg);
+  color: black;
+  text-shadow: 2px 7px 5px rgb(230, 2, 255),
+    0px -4px 10px rgb(255, 255, 255);
+  -webkit-text-fill-color: black;
+  background-color: white;
+  font-size: 30px;
+  width: 268px;
+  margin-top: 560px;
+  margin-left: 470px;
+
+}
+
+#villain_info h1 {
+  font-size: 80px;
+  width: 100%;
+  height: 120px;
+  margin-left: 400px;
+  font-weight: 900;
+
+}
+
+
+#villain #video video {
+  height: 800px;
+  width: 800px;
+  position: fixed;
+
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  flex-wrap: wrap;
+
+
+}
+
+#page1 h1 {
+  font-size: 40px;
+  font-weight: 1000;
+  position: relative;
+  color: #ffffff;
+  right: 17px;
+  top: 300px;
+  text-shadow: 3px 3px 20px #ff0101,
+    -2px 1px 30px #ff99cc;
+
+}
+
+#nav h2:hover {
+  color: red;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+#page2 #video {
+  position: absolute;
+}
+
+#page2 #kokushibo_info {
+  height: 400px;
+  width: 500px;
+  margin-left: 110px;
+  margin-top: 100px;
+
+}
+
+#kokushibo_info h2 {
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #ff0000,
+    -2px 1px 30px #000000;
+  line-height: 200px;
+}
+
+#kokushibo_info p {
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+}
+
+#rank1 h2 {
+  margin-left: 700px;
+  margin-top: 160px;
+  text-shadow: 3px 3px 20px #f30808,
+    -2px 1px 30px #db06f3b7;
+  font-size: 40px;
+  background-color: black;
+  border: 4px solid rgb(255, 0, 0);
+}
+
+#kokushibo_info p:hover {
+  text-shadow: 3px 3px 20px #fa0202,
+    -2px 1px 30px #db06f3b7;
+}
+
+.dropdown-content a {
+  font-weight: 800;
+}
+
+#page3 {
+  display: flex;
+  height: 100vh;
+}
+
+#page3 #video {
+  position: absolute;
+}
+
+
+#doma_info {
+
+  height: 400px;
+  width: 700px;
+  margin-left: 110px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+#rank2 {
+  height: 60px;
+  display: flex;
+  margin-left: 1250px;
+  margin-top: 200px;
+  margin-right: 100px;
+
+}
+
+#rank2 h2 {
+  width: 300px;
+  border: 4px solid rgb(242, 0, 255);
+  text-shadow: 3px 3px 20px #f30808,
+    -2px 1px 30px #010000b7;
+  font-size: 40px;
+  background-color: black;
+}
+
+#doma_info h2 {
+  margin-left: 200px;
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #af02ff,
+    -2px 1px 30px #000000;
+  line-height: 200px;
+
+}
+
+
+#doma_info p {
+  text-shadow: 3px 3px 20px #aa00ff,
+    -2px 1px 30px #000000;
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+.dropdown-content a:hover {
+  text-shadow: 3px 3px 20px #ff0000,
+    -2px 1px 30px #000000;
+}
+
+#page4 {
+  display: flex;
+  height: 100vh;
+
+}
+
+#page4 #akaza_info {
+  height: 500px;
+  width: 800px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+#page4 #akaza_info h2 {
+  text-align: start;
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #0029f8,
+    -2px 1px 30px #f2052572;
+  line-height: 200px;
+  font-weight: 800;
+
+}
+
+#page4 #akaza_info p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#akaza_info p:hover {
+  text-shadow: 3px 3px 20px #0029f8,
+    -2px 1px 30px #f2052572;
+}
+
+#rank3 {
+  height: 70px;
+  width: 320px;
+  margin-left: 540px;
+  margin-top: 67px;
+  text-shadow: 3px 3px 20px #0029f8,
+    -2px 1px 30px #f2052572;
+  background-color: black;
+  border: 4px solid rgb(103, 249, 5);
+  font-size: 40px;
+
+  font-size: 30px;
+}
+
+#page5 {
+  height: 100vh;
+  display: flex;
+}
+
+#page5 #hantengu_info {
+  width: 800px;
+  height: 400px;
+  margin-left: 1000px;
+  position: absolute;
+}
+
+#page5 #hantengu_info p {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#rank4 {
+  height: 100px;
+  margin-top: 100px;
+  position: relative;
+  margin-left: 60px;
+  border: 4px solid rgb(5, 167, 255);
+  text-shadow: 3px 3px 20px #f30808,
+    -2px 1px 30px #010000b7;
+  font-size: 40px;
+  background-color: black;
+}
+
+#hantengu_info p:hover {
+  text-shadow: 3px 3px 20px #01ffd9,
+    -2px 1px 30px #00f2ff72;
+}
+
+#page5 #hantengu_info h2 {
+  text-align: start;
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #ffbb00,
+    -2px 1px 30px #ff002272;
+  line-height: 200px;
+  font-weight: 800;
+}
+
+#page6 {
+  height: 100vh;
+  display: flex;
+}
+
+#page6 #gyokko_info {
+  height: 500px;
+  width: 500px;
+}
+
+#gyokko_info h2 {
+  text-align: start;
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #ffbb00,
+    -2px 1px 30px #ff002272;
+  line-height: 200px;
+  font-weight: 800;
+  margin-left: 100px;
+}
+
+#rank5 {
+  height: 100px;
+  margin-top: 50px;
+  border: 4px solid rgb(242, 255, 3);
+  text-shadow: 3px 3px 20px #f30808,
+    -2px 1px 30px #010000b7;
+  font-size: 40px;
+  background-color: black;
+}
+
+#gyokko_info p {
+  font-size: 30px;
+  width: 600px;
+  font-weight: 900;
+  margin-left: 100px;
+  text-shadow: 3px 3px 20px #ffbb00,
+    -2px 1px 30px #ff002272;
+}
+
+#page7 {
+  height: 100vh;
+  display: flex;
+}
+
+#gyutarodaki_info {
+  height: 500px;
+  width: 900px;
+}
+
+#gyutarodaki_info h2 {
+  text-align: start;
+  font-size: 90px;
+  text-shadow: 3px 3px 20px #ffbb00,
+    -2px 1px 30px #ff002272;
+  line-height: 200px;
+  font-weight: 800;
+  margin-left: 100px;
+}
+
+#page7 #gyutarodaki_info p {
+  font-size: 30px;
+  width: 600px;
+  font-weight: 900;
+  margin-left: 100px;
+  text-shadow: 3px 3px 20px #ff02f7,
+    -2px 1px 30px #2bff0072;
+}
+
+#rank6 {
+  height: 100px;
+  width: 450px;
+  margin-top: 60px;
+  margin-left: 450px;
+  border: 4px solid rgb(255, 133, 2);
+  text-shadow: 3px 3px 20px #f30808,
+    -2px 1px 30px #010000b7;
+  font-size: 40px;
+  background-color: black;
+}
+

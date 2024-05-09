@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  perspective: 800px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+
+#main {
+  position: relative;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding-left: 45%;
+  padding-top: 500px;
+  align-items: center;
+
+  text-align: center;
+  z-index: 10;
+
+
+}
+
+#page1 h2 {
+  font-size: 40px;
+  font-weight: 1000;
+  position: relative;
+  color: #fff;
+  right: 17px;
+  top: 100px;
+  text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+
+}
+
+/* Page 2*/
+#page2 {
+  display: flex;
+  height: 58vh;
+  width: 100%;
+  flex-wrap: wrap;
+
+
+}
+
+#page2 #video {
+  height: 400px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+#page2 #giyu_info {
+  height: 40vh;
+  width: 40vh;
+  margin: 40px;
+  margin-left: 200px;
+
+
+
+
+}
+
+#giyu_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #121212;
+
+  text-shadow: 2px 7px 5px rgb(5, 176, 255),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#giyu_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+
+}
+
+#page2 #video img {
+  padding-left: 40px;
+  height: 400px;
+  width: 400px;
+  border: 4px solid aqua;
+}
+
+/* PAGE 3*/
+#page3 {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+#page3 #video img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+
+}
+
+#page3 #video {
+  height: 406px;
+  width: 406px;
+  border: 4px solid red;
+  margin-top: 140px;
+
+}
+
+#page3 #regnoku_info {
+  height: 50vh;
+  width: 130vh;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+
+#page3 #regnoku_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(213, 0, 0);
+  text-shadow: 2px 7px 5px rgb(5, 176, 255),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*Page 4 */
+
+#page4 {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#page4 #video {
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  margin-left: 350px;
+}
+
+#page4 #video img {
+  height: 395px;
+  width: 395px;
+
+}
+
+#page4 #shinobu_info {
+  margin-left: 300px;
+}
+
+#page4 #shinobu_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 7px 5px rgb(201, 0, 241),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page4 #shinobu_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* PAGE 5 */
+
+#page5 {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+#page5 #video {
+  height: 406px;
+  width: 406px;
+  border: 4px solid blue;
+
+}
+
+#page5 #video img {
+  height: 400px;
+  width: 400px;
+}
+
+#page5 #gyomei_info {
+  height: 50vh;
+  width: 130vh;
+  margin-left: 20px;
+}
+
+#page5 #gyomei_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 153, 255);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page5 #gyomei_info p {
+
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*Page 6*/
+
+#page6 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+#page6 #video {
+  height: 400px;
+  width: 400px;
+  border: 4px solid green;
+  margin-left: 325px;
+  margin-top: 50px;
+}
+
+#page6 #video img {
+  height: 400px;
+  width: 400px;
+}
+
+#page6 #muichiro_info {
+  height: 400px;
+  width: 800px;
+  margin-left: 300px
+}
+
+#page6 #muichiro_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(1, 239, 84);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page6 #muichiro_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* PAGE 7*/
+#page7 {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#page7 #tengen_info {
+  height: 400px;
+  width: 400px;
+  margin-left: 300px;
+}
+
+#page7 #tengen_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(200, 255, 0);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page7 #tengen_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+
+}
+
+#page7 #video {
+  height: 400px;
+  width: 404px;
+  border: 4px solid yellow;
+  margin-left: 550px;
+}
+
+#page7 #video img {
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PAGE 8 */
+#page8 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#page8 #video {
+  height: 405px;
+  margin-left: 350px;
+  width: 405px;
+  border: 4px solid magenta;
+}
+
+#page8 #video img {
+  height: 400px;
+  width: 400px;
+
+}
+
+#page8 #mitsuri_info {
+  height: 400px;
+  width: 400px;
+  margin-left: 300px;
+}
+
+#page8 #mitsuri_info h2 {
+  font-size: 60px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(254, 2, 179);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page8 #mitsuri_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+/*PAGE 9*/
+#page9 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#page9 #obonai_info {
+  height: 400px;
+  width: 400px;
+  margin-left: 200px;
+
+}
+
+#page9 #obonai_info h2 {
+  font-size: 60px;
+  margin-left: 100px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(1, 242, 255);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page3 #regnoku_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page9 #obonai_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center;
+}
+
+#page9 #video {
+  width: 405px;
+  height: 405px;
+  margin-left: 600px;
+  border: 4px solid rgb(0, 225, 255);
+
+}
+
+#page9 #video img {
+  height: 400px;
+  width: 400px;
+}
+
+/*PAGE 10*/
+#page10 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#page10 #video {
+  height: 405px;
+  width: 405px;
+  border: 4px solid red;
+  margin-left: 300px;
+}
+
+#page10 #video img {
+  height: 400px;
+  width: 400px;
+
+}
+
+#page10 #sanemi_info {
+  height: 400px;
+  width: 400px;
+  margin-left: 250px;
+
+}
+
+#page10 #sanemi_info h2 {
+  font-size: 60px;
+  margin-left: 100px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 81, 0);
+  text-shadow: 2px 7px 5px rgb(113, 24, 161),
+    0px -4px 10px rgb(255, 255, 255);
+}
+
+#page10 #sanemi_info p {
+  font-size: 30px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 50px;
+  text-align: center
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #a20036;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 60, 255);
+}
+
+#nav {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30px;
+  gap: 50px;
+  position: fixed;
+  z-index: 99;
+  flex-wrap: wrap;
+
+
+}
+
+#nav h2:hover{
+  color: red;
+}
+/*pseudo class*/
+#muichiro_info p:hover {
+  color: green;
+}
+
+#gyomei_info p:hover {
+  color: blue;
+}
+
+#shinobu_info p:hover {
+  color: #ff99cc;
+}
+
+#regnoku_info p:hover {
+  color: red;
+}
+
+#giyu_info p:hover {
+  color: aqua;
+}
+
+#tengen_info p:hover {
+  color: yellow;
+}
+
+#mitsuri_info p:hover {
+  color: magenta;
+}
+
+#obonai_info p:hover {
+  color: rgb(2, 200, 255);
+}
+
+#sanemi_info p:hover {
+  color: rgb(255, 102, 0);
+}
+.dropdown-content a{
+  font-weight: 800;
+}
+.dropdown-content a:hover{
+  text-shadow: 3px 3px 20px #ff0000,
+  -2px 1px 30px #000000;
+}
